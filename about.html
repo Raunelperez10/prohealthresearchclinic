@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Pro-Health Research Clinic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ <!-- ========== TOP BAR (Single Line, Centered, Transparent) ========== -->
+<div class="top-bar">
+  <div class="top-bar-content">
+    <span class="contact-item">
+      <img src="images/phone_icon.png" alt="Phone" class="icon" />
+      <a href="tel:5618162040">(561) 816-2040</a>
+    </span>
+    <span class="separator">|</span>
+    <span class="contact-item">
+      <img src="images/email_icon.png" alt="Email" class="icon" />
+      <a href="mailto:info@prohealthresearchclinic.com">info@prohealthresearchclinic.com</a>
+    </span>
+    <span class="separator">|</span>
+    <span class="contact-item">
+      <img src="images/location_icon.png" alt="Location" class="icon" />
+      <span>3199 Lake Worth Rd. Suite A1, A2, A3, Palm Springs, FL 33461</span>
+    </span>
+  </div>
+</div>
+<!-- ========== NAVBAR ========== -->
+<div class="navbar">
+  <div class="navbar-left">
+    <img src="images/transparent_logo.png" alt="Pro-Health Logo" class="logo" />
+  </div>
+  <div class="navbar-right">
+    <button class="hamburger" id="hamburger-btn">☰</button>
+
+  </div>
+</div>
+<!-- MOBILE MENU DRAWER -->
+<nav class="mobile-drawer" id="mobile-menu">
+  <div class="mobile-menu-header">
+    <button id="close-btn">✕</button>
+  </div>
+  <ul class="mobile-menu-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Our Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<!-- DARK OVERLAY -->
+<div id="menu-overlay"></div>
+
+  <!-- Spacer so content is not hidden behind header -->
+  <div class="header-spacer"></div>
+
+  <!-- ABOUT US CONTENT -->
+  <section class="about-intro">
+  <div class="container">
+    <h1>About Us</h1>
+    <p class="lead">
+      Pro‑Health Research Clinic is a dedicated clinical research center in Palm Springs, Florida.
+      We partner with patients, sponsors, and CROs to conduct safe, ethical studies that advance
+      healthcare while delivering respectful, high‑quality care.
+    </p>
+  </div>
+</section>
+<!-- ========== MISSION & VISION SECTION ========== -->
+<section class="mission-vision">
+  <div class="container">
+    <!-- Mission Block -->
+    <div class="mv-item">
+      <h2>Our Mission</h2>
+      <p>
+        To advance medical knowledge through high-quality clinical research while prioritizing
+        patient safety, comfort, and trust.
+      </p>
+    </div>
+
+    <!-- Vision Block -->
+    <div class="mv-item">
+      <h2>Our Vision</h2>
+      <p>
+        To be a leading research clinic in South Florida, recognized for innovation, integrity, 
+        and compassionate patient care.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- ========== CAPABILITIES & COMPLIANCE ========== -->
+<section class="capabilities">
+  <div class="container">
+    <!-- Section header -->
+    <h2>Capabilities & Compliance</h2>
+    <p class="cap-intro">
+      Our site is equipped to run Phase II–IV studies with strict adherence to Good Clinical Practice (GCP) and patient safety.
+    </p>
+
+    <!-- Capability bullets (mobile-first) -->
+    <ul class="cap-list">
+      <li>
+        <h3>Experienced Team</h3>
+        <p>Principal Investigator, Sub‑Is, CRCs, and RNs with therapeutic‑area experience.</p>
+      </li>
+      <li>
+        <h3>On‑Site Procedures</h3>
+        <p>Vitals, phlebotomy, EKG, sample processing, and temperature‑controlled storage.</p>
+      </li>
+      <li>
+        <h3>Participant Care</h3>
+        <p>HIPAA‑compliant workflows, privacy‑first intake, and bilingual staff (EN/ES).</p>
+      </li>
+      <li>
+        <h3>Quality & Safety</h3>
+        <p>IRB oversight, SOPs, deviation tracking, and 100% source‑to‑CRF verification.</p>
+      </li>
+      <li>
+        <h3>Recruitment</h3>
+        <p>Community outreach, pre‑screen pipelines, and EMR‑assisted eligibility checks.</p>
+      </li>
+      <li>
+        <h3>Data & Compliance</h3>
+        <p>eSource/ePRO ready, GCP/ICH‑aligned, and sponsor audit support.</p>
+      </li>
+    </ul>
+
+    <!-- Compliance badges (text-only for now; we can swap for icons later) -->
+    <div class="compliance-strip">
+      <span class="badge">GCP / ICH</span>
+      <span class="dot">•</span>
+      <span class="badge">IRB Oversight</span>
+      <span class="dot">•</span>
+      <span class="badge">HIPAA</span>
+      <span class="dot">•</span>
+      <span class="badge">21 CFR Part 11 Ready</span>
+    </div>
+  </div>
+</section>
+<!-- ========== THERAPEUTIC AREAS & STUDY TYPES ========== -->
+<section class="therapeutics">
+  <div class="container">
+    <!-- Heading + short blurb -->
+    <h2>Therapeutic Areas & Study Types</h2>
+    <p class="thera-intro">
+      We partner with sponsors and CROs across multiple indications and phases.
+    </p>
+
+    <!-- Therapeutic areas (chips) -->
+    <div class="chip-group" aria-label="Therapeutic Areas">
+      <span class="chip">Cardiology</span>
+      <span class="chip">Endocrinology</span>
+      <span class="chip">Pulmonology</span>
+      <span class="chip">Gastroenterology</span>
+      <span class="chip">Dermatology</span>
+      <span class="chip">Neurology</span>
+      <span class="chip">Infectious Diseases</span>
+      <span class="chip">Women’s Health</span>
+    </div>
+
+    <!-- Study types (chips) -->
+    <h3 class="subhead">Study Types</h3>
+    <div class="chip-group">
+      <span class="chip">Phase II–IV</span>
+      <span class="chip">Observational</span>
+      <span class="chip">Device</span>
+      <span class="chip">Vaccine</span>
+      <span class="chip">Post‑Marketing</span>
+      <span class="chip">Registry</span>
+    </div>
+  </div>
+</section>
+<!-- ========== WHY PARTICIPATE (FOR PATIENTS) ========== -->
+<section class="why-participate" id="why-participate">
+  <div class="container">
+
+    <!-- Header + short reassurance -->
+    <h2>Why Participate in a Clinical Study?</h2>
+    <p class="wp-intro">
+      Clinical research helps bring new treatments to life. At Pro-Health Research Clinic, your
+      safety and comfort come first, and participation is always voluntary.
+    </p>
+
+    <!-- Key benefits (mobile-first cards) -->
+    <ul class="wp-benefits">
+      <li>
+        <h3>No-Cost Care</h3>
+        <p>Study-related exams, labs, and procedures are provided at no cost to you.</p>
+      </li>
+      <li>
+        <h3>Compensation</h3>
+        <p>Eligible participants may receive compensation for time and travel.</p>
+      </li>
+      <li>
+        <h3>Expert Oversight</h3>
+        <p>Our licensed medical team follows IRB-approved protocols and GCP standards.</p>
+      </li>
+    </ul>
+
+    <!-- Simple 3-step journey -->
+    <div class="wp-steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <h4>Screening</h4>
+        <p>Brief call and eligibility questions. We review medical history and answer questions.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <h4>Study Visit</h4>
+        <p>In-clinic visit for consent, vitals, and any study-related tests or procedures.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <h4>Follow-Up</h4>
+        <p>Ongoing check-ins to monitor health, with clear guidance at every step.</p>
+      </div>
+    </div>
+
+    <!-- Trust/compliance line -->
+    <div class="wp-trust">
+      <span>IRB Reviewed</span><span class="dot">•</span>
+      <span>HIPAA Compliant</span><span class="dot">•</span>
+      <span>GCP/ICH Standards</span>
+    </div>
+
+    <!-- CTA -->
+    <div class="wp-cta">
+      <a href="contact.html" class="btn-primary">See if You Qualify</a>
+    </div>
+
+  </div>
+</section>
+<!-- ========== FAQ (Frequently Asked Questions) ========== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <p class="faq-intro">
+      Have questions about study participation? Here are the basics. If you don’t see your question,
+      <a href="contact.html">contact us</a>—we’re happy to help.
+    </p>
+
+    <div class="faq-list" role="list">
+      <!-- FAQ item -->
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq1" id="q1">
+          Is it safe to participate in a clinical study?
+          <span class="faq-caret" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" id="faq1" role="region" aria-labelledby="q1">
+          <p>
+            Safety is our top priority. All studies follow IRB‑approved protocols and Good Clinical
+            Practice (GCP). You’ll review an informed consent form and can ask questions before any
+            procedures begin.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq2" id="q2">
+          Do I have to pay for anything?
+          <span class="faq-caret" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" id="faq2" role="region" aria-labelledby="q2">
+          <p>
+            No. Study‑related exams, labs, and procedures are provided at no cost. Many studies also
+            offer compensation for time and travel if you qualify.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq3" id="q3">
+          Will this affect my insurance or medical care?
+          <span class="faq-caret" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" id="faq3" role="region" aria-labelledby="q3">
+          <p>
+            Participation does not replace your regular medical care. Study‑related costs are covered
+            by the study. Your personal information is protected under HIPAA.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq4" id="q4">
+          Can I leave the study at any time?
+          <span class="faq-caret" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" id="faq4" role="region" aria-labelledby="q4">
+          <p>
+            Yes. Participation is completely voluntary. You can withdraw at any time, for any reason,
+            and this will not affect your future medical care.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq5" id="q5">
+          How long does a study visit take?
+          <span class="faq-caret" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer" id="faq5" role="region" aria-labelledby="q5">
+          <p>
+            It varies by study. Screening visits can take 30–90 minutes; study visits may take longer
+            depending on the procedures required. We’ll tell you the expected time before you come in.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- SECTION: Footer -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Pro-Health Research Clinic LLC. All rights reserved.</p>
+    <!-- Optional extra links -->
+    <!-- <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div> -->
+  </div>
+</footer>
+
+  <!-- JS for mobile menu -->
+  <script src="script.js" defer></script>
+
+  
+
+</body>
+</html>
